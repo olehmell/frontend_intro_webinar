@@ -34,14 +34,14 @@ const buildImgContainer = (path, className, alt) => {
 }
 
 export const startLoading = () => {
-  const loading = buildImgContainer('../img/loading.svg', 'loading', 'loading...')
+  const loading = buildImgContainer('img/loading.svg', 'loading', 'loading...')
   moviesContainer.appendChild(loading)
 }
 
 export const buildError = (errorMsg) => {
   cleanContainer()
 
-  const error = buildImgContainer('../img/error.svg', 'error', 'error')
+  const error = buildImgContainer('img/error.svg', 'error', 'error')
 
   const span = document.createElement('span')
   span.setAttribute('class', 'error')
