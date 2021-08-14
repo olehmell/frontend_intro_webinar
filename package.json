@@ -5,6 +5,6 @@
   "main": "index.js",
   "repository": "https://github.com/olehmell/frontend_intro",
   "author": "olehmell <oleh.melnechyk@gmail.com>",
-  "license": "GPL",
+  "license": "GNU",
   "private": false
 }
