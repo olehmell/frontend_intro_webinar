@@ -1,0 +1,10 @@
+{
+  "name": "frontend_intro",
+  "version": "0.0.1",
+  "description": "Just simple film list with search from OMDB API",
+  "main": "index.js",
+  "repository": "https://github.com/olehmell/frontend_intro",
+  "author": "olehmell <oleh.melnechyk@gmail.com>",
+  "license": "GPL",
+  "private": false
+}

@@ -1,0 +1,26 @@
+#movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.movie-item {
+  margin: var(--normal_space);
+  width: 306px;
+  display: grid;
+  align-content: space-between;
+  justify-content: center;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: .25rem;
+  padding-top: 0;
+}
+
+.movie-item img {
+  border-radius: var(--border-radius);
+}
+
+.movie-item .title {
+  margin: var(--normal_space) 0;
+  text-align: center;
+}

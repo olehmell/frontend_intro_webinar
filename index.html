@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend intro</title>
+  <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/search.css">
+  <link rel="stylesheet" href="./css/movies.css">
+</head>
+
+<body>
+  <main class="container">
+    <!-- Header -->
+    <header class="header">
+      <h2>FRONTEND INTRO. ПЕРВОЕ ВЕБ-ПРИЛОЖЕНИЕ С НУЛЯ</h2>
+    </header>
+
+    <!-- Search -->
+    <section class="search">
+      <form name='search'>
+        <input
+          class="search-input"
+          name="searchValue"
+          type="text"
+          required
+        />
+  
+        <input
+          onclick="searchByTitle()"
+          value="Search"
+          type="button"
+          class="search-btn"
+        />
+      </form>
+    </section>
+
+    <!-- Movies -->
+    <section id="movies"></section>
+  </main>
+  <script type="module" src="./js/search.js"></script>
+  <script type="module" src="./js/nodes.js"></script>
+  <script type="module" src="./js/utils.js"></script>
+</body>
+
+</html>
